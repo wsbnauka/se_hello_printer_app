@@ -81,7 +81,7 @@ Etykiety
 =========
 .. image:: https://travis-ci.org/wsbnauka/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/wsbnauka/se_hello_printer_app
-.. image:: https://app.statuscake.com/button/index.php?Track=riqufRHQGj&Days=1&Design=1
+.. image:: https://app.statuscake.com/button/index.php?Track=riqufRHQGj&Days=1&Design=6
     :target: https://www.statuscake.com
 
 Materiały
