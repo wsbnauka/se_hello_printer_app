@@ -1,7 +1,7 @@
 Simple Flask App
 ================
 
-Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć 
+Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
@@ -15,7 +15,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Uruchamianie applikacji:
 
-  :: 
+  ::
 
     # jako zwykły program
     python main.py
@@ -56,10 +56,10 @@ Pomocnicze
     pip install -U pip
     pip install virtualenv
     pip install virtualenvwrapper
-  
+
 - Instalacja docker-a:
 
-  :: 
+  ::
 
     yum remove docker \
         docker-common \
@@ -76,6 +76,12 @@ Pomocnicze
     yum makecache fast
     yum install -y docker-ce
     systemctl start docker
+
+- Etykiety
+.. image:: https://travis-ci.org/wsbnauka/se_hello_printer_app.svg?branch=master
+ :target: https://travis-ci.org/wsbnauka/se_hello_printer_app
+
+ <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=riqufRHQGj&Days=1&Design=1" /></a>
 
 Materiały
 =========
