@@ -6,14 +6,13 @@ python:
 install:
   - make deps
 script:
-  - make test
+  - make test_xunit
   - make lint
   - make docker_build
   - make docker_push
-  - make test_xunit
 after_success:
   - make docker_build
-  deploy:
-      provider: heroku
-      app: hidden-beach-99613
-      api_key: ${HEROKU_API_KEY}
+deploy:
+  provider: heroku
+    app: hidden-beach-99613
+    api_key: ${HEROKU_API_KEY}
