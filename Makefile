@@ -9,12 +9,12 @@ lint:
 
 test:
 	PYTHONPATH=. py.test
+
+test_cov:
 	PYTHONPATH=. py.test --verbose -s --cov=.
 
 test_xunit:
 	PYTHONPATH=. py.test --verbose -s --cov=. --junit-xml=test_results.xml
-docker_build:
-	docker build -t hello-world-printer .
 
 docker_run: docker_build
 		docker run \
