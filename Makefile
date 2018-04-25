@@ -15,7 +15,9 @@ test_cov:
 
 test_xunit:
 	PYTHONPATH=. py.test --verbose -s --cov=. --junit-xml=test_results.xml
-
+test_smoke:
+	curl --fail 127.0.0.1:5000
+	
 docker_run: docker_build
 		docker run \
 			--name hello-world-printer-dev \
