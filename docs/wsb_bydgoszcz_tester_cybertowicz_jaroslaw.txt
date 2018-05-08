@@ -1,0 +1,25 @@
+
+Dokument przedstawienia ca³y cyklu ¿ycia produktu od ci¹g³ej integracji Continuous Integration, 
+ci¹g³ego dostarczania Continuous Delivery oraz ci¹g³ego wdro¿enia Continuous Deployment
+
+Poni¿ej zosta³y przedstawione narzêdzia w ca³ym ³añcuchu dostawy które przyczyniaj¹ siê 
+do zautomatyzowania procesu. Im bardziej automatyzujemy proces tym 
+bardziej zbli¿amy siê do Continuous Deployment.
+
+ 
+Planowanie > Kodowanie > Budowanie > Testowanie > Release > Patch > Utrzymanie
+
+			Continuous Integration	      Continuous Delivery
+
+
+URL do:
+
+https://github.com/wsbnauka/se_hello_printer_app
+
+https://travis-ci.org/wsbnauka/se_hello_printer_app
+
+https://hub.docker.com/r/wsbnauka/hello-world-printer/tags/
+
+https://dashboard.heroku.com/apps/hidden-beach-99613
+
+https://app.statuscake.com/YourStatus.php 
